@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #6a0dad; /* Purple background */
+        color: #333;
+      }
+      .profile-pic {
+        display: block;
+        width: 400px;
+        height: 300px;
+        border-radius: 70px;
+        object-fit: cover;
+        border: 5px solid #61adfb;
+        margin: 2rem auto 0;
+      }
+      
+      header {
+        background-color: #282c34;
+        color: tomato;
+        padding: 1rem 2rem;
+        text-align: center;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        padding: 1rem 0;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+      }
+      .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 4rem 2rem;
+        background-color: #61dafb;
+        color: #000;
+      }
+      .hero h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+      .hero p {
+        font-size: 1.2rem;
+        max-width: 600px;
+      }
+      .section {
+        padding: 3rem 2rem;
+        max-width: 900px;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        margin-bottom: 20px;
+      }
+      .section h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #6a0dad;
+      }
+      
+      /* Dashboard-style favorite meals section */
+      .dashboard-section {
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-left: 4px solid #6a0dad;
+      }
+      .dashboard-section h3 {
+        color: #6a0dad;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #ddd;
+      }
+      .dashboard-section ul, .dashboard-section ol {
+        padding-left: 20px;
+        margin-bottom: 15px;
+      }
+      .dashboard-section li {
+        margin-bottom: 8px;
+      }
+      
+      .contact-info {
+        background-color: #f8f9fa;
+        padding: 1.5rem;
+        border-radius: 10px;
+        border-left: 4px solid #6a0dad;
+      }
+      .contact-info p {
+        margin-bottom: 10px;
+      }
+      footer {
+        text-align: center;
+        padding: 2rem;
+        background-color: #282c34;
+        color: white;
+      }
+      @media (max-width: 600px) {
+        .hero h1 {
+          font-size: 2rem;
+        }
+        .hero p {
+          font-size: 1rem;
+        }
+        .profile-pic {
+          width: 300px;
+          height: 225px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+   <img src="https://assets.onecompiler.app/43ebwzk9q/43ebx4hh7/BROOOK%2022.png" alt="profile picture" class="profile-pic">
+    <header>
+      <h1>PORTFOLIO</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#favourite-meals">Favourite Meals</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section class="hero">
+      <h1>Hi, I am Okeyo Bruno a community health and development student at Jomo Kenyatta University of Agriculture and Technology.</h1>
+      <p> Apart from my studies, currently I do engage in photo editing (adobe photo) and studying html, doing theological research and getting engaged in group online discussion on whatsapp with my peers on how to be better leaders of tomorrow.</p>
+    </section>
+    
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p> I believe my life's experience is one of the most interesting stories I can share with someone. Born in Oyugis Town in the year 26 Feb 2006 by Agnes Okeyo, a widow by then whom forever has had an ambition to educate her kids, in a family of five as their last born I always had people to lead me through all the tough stages of life be it academical, social, behavioural or ethical and for that I surely believes that I grew up to be a good gentle man.</p>
+      <p> I started my academics in the year 2009 in a school called Agoro Sare Adventist Academy where I graduated in pre-unit in the year 2011, then transitioned to Agoro Sare Primary in 2012 where I joined class one and finished my primary education in the same school in the year 2019 having garnered 354 marks in my KCPE exam.</p>
+      <p> You must be imagining that this boy joined Agoro High School, but that's not the case, although it was part of my choices. I joined Ringa Boys' High in the year 2020 and left in 2023 after completing my secondary education. I scored a mean grade of B+ (73 points) where I got a chance to join JKUAT for my degree in BSc. Community Health and Development.</p>
+    </section>
+    
+    <section id="favourite-meals" class="section">
+      <h2>Favourite Meals</h2>
+      
+      <div class="dashboard-section">
+        <h3>CHAPATI</h3>
+        <p>Chapati! Chapati! How many times did I call you? Making chapati is a rite of passage for most women in Kenya. In fact, chapati has been a favourite meal since the days of my childhood. My earliest memories of eating chapati go back to seating next to my mum as she kneaded the dough, rolled and cooked on a cast "iron round thing" (pan).</p>
+        <h4>INGREDIENTS</h4>
+        <ul>
+          <li>3 cups wheat flour (preferably high gluten flour)</li>
+          <li>1 tsp fine salt</li>
+          <li>2-3 tbsps ghee (or high fat shortening)</li>
+          <li>1.5 cups of hot water (a little extra for kneading)</li>
+          <li>1 extra cup of flour for dusting</li>
+          <li>3 tbsp melted ghee for frying.</li>
+        </ul>
+        <h4>INSTRUCTIONS</h4>
+        <ol>
+          <li>Place 3 cups of flour and add salt in large bowl.</li>
+          <li>Rub in the ghee, then gradually add the hot water, or enough to form a firm dough.</li>
+          <li>Mix with a wooden spoon. If the dough is sticky, let it cool for 10 minutes.</li>
+          <li>If using a stand mixer, use a dough hook and let it mix for 10 minutes.</li>
+          <li>If kneading by hand, turn the dough on a well-flour surface and knead for 10 minutes until smooth.</li>
+          <li>Should you notice that the dough is too sticky, add a little flour at a time until a firm dough form. Don't add too much flour.</li>
+          <li>Place the dough into a bowl and cover with a kitchen cloth or plastic wrap and set aside for one hour.</li>
+          <li>Divide the dough into 14-16 ports and roll into 15 circles.</li>
+          <li>Brush the rolled out chapati with melted ghee and form spiralled balls, repeat the process, then cover and let the oiled dough rest for 10 minutes.</li>
+          <li>You can also roll the dough balls into a circle, cut each circle at the centre then roll tightly to form a cone shape, press each cone shaped ball down on the pointed top.</li>
+          <li>Reroll the oiled dough balls into a 15 cm (5inches) circle.</li>
+          <li>Heat a thick bottomed pan or tawa on medium heat.</li>
+          <li>Cook one chapati at a time, dry frying each side until brown bubbles appear, then brush each side with ghee, flattening the surface with a spoon or flipper until both sides are golden brown.</li>
+          <li>Repeat this process with all chapatis, cooking each side for 15-20 seconds.</li>
+          <li>Place them in a clean kitchen towel, inside a bowl and cover tightly with a lid. This step will keep your chapatis warm and soft.</li>
+          <li>Serve with your favourite stew.</li>
+        </ol>
+      </div>
+      
+      <div class="dashboard-section">
+        <h3>FISH STEW</h3>
+        <p>I was craving some whole fish and though in Kenya we mainly deep fry our fish before stewing, personally I prefer not to plus it is much healthier and still as tasty without the extra oil. I used red snapper for this recipe but you can easily use tilapia, rock-cod, kingfish the choice is yours. Ask your fish monger to scale and cut it for you in large chunks but if you want to practice removing the scales from the skin then by all means buy the fish whole and do it yourself at home. I prefer to have the fishmonger do it, saves me on time when it comes to preparing the dish.</p>
+        <h4>INGREDIENTS</h4>
+        <ul>
+          <li>A large whole fish (washed, cut into chunks, patted dry)</li>
+          <li>Salt and black pepper (to season the fish to taste)</li>
+          <li>50 ml vegetable oil</li>
+          <li>2 garlic cloves, grated</li>
+          <li>1 tsp ginger, grated</li>
+          <li>2 large tomatoes, blended</li>
+          <li>2 big tomatoes, chopped</li>
+          <li>1 tsp cumin seeds</li>
+          <li>2 royco cubes, optional</li>
+        </ul>
+        <h4>METHOD</h4>
+        <ol>
+          <li>In a deep pan heat oil and fry onions until soft</li>
+          <li>Add the ginger, garlic and pepper and fry until fragrant</li>
+          <li>Add the chopped tomatoes, salt to taste, stir and simmer for about 5 mins/ until tomatoes are soft</li>
+          <li>Add the royco stir, then add the water stir well and cover with a lid and simmer for another 5 minutes</li>
+          <li>In the meantime, season your fish with salt and pepper but remember to use sparingly as stew when already seasoned</li>
+          <li>Add the fish, cover and simmer for 5-10 minutes or until fish is cooked through</li>
+          <li>Enjoy with ugali/ rice/ chapati in accordance to your taste.</li>
+        </ol>
+      </div>
+    </section>
+    
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <p>Email: okeyobruno474@gmail.com</p>
+        <p>LinkedIn: linkedin.com/in/Bruno Okeyo</p>
+        <p>GitHub: github.com/okeyo-19</p>
+        <p>Tell: 0702283822</p>
+        <p>Website: www.jkuat.ac.ke</p>
+      </div>
+    </section>
+    
+    <footer>
+      <p>&copy; 2025 Okeyo Bruno. I hope you got inspired.</p>
+    </footer>
+  </body>
+</html>
